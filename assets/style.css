@@ -1,0 +1,22 @@
+:root {
+
+}
+* {
+    /* universal selector applications go here */
+    box-sizing: border-box;
+}
+
+header {
+    /* display: flex; */
+    text-align: left;
+    background-color: blueviolet;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+    /* justify-content: space-between; */
+}
+
+.header nav {
+    display: flex;
+    justify-content: right;
+}
