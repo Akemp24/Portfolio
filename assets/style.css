@@ -9,8 +9,9 @@
 header,
 footer {
     /* display: flex; */
+    display: block;
     text-align: left;
-    background-color: rgba(186, 141, 228, 0.966);
+    background-color: #ba8de4f6;
     color: white;
     padding: 20px;
     font-size: 24px;
@@ -20,4 +21,16 @@ footer {
 .header nav {
     display: flex;
     justify-content: right;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+    background-color: white;  
+}
+
+body {
+    
 }
