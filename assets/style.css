@@ -6,10 +6,11 @@
     box-sizing: border-box;
 }
 
-header {
+header,
+footer {
     /* display: flex; */
     text-align: left;
-    background-color: blueviolet;
+    background-color: rgba(186, 141, 228, 0.966);
     color: white;
     padding: 20px;
     font-size: 24px;
