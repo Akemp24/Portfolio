@@ -4,6 +4,13 @@
 * {
     /* universal selector applications go here */
     box-sizing: border-box;
+    font-family: ;
+    line-height: 150%;
+    font-size: 18px;
+}
+
+body {
+     background-color: rgb(128, 128, 128, 0.3);
 }
 
 header,
@@ -13,7 +20,7 @@ footer {
     text-align: left;
     background-color: #ba8de4f6;
     color: white;
-    padding: 20px;
+    padding: 50px;
     font-size: 24px;
     /* justify-content: space-between; */
 }
@@ -21,6 +28,11 @@ footer {
 .header nav {
     display: flex;
     justify-content: right;
+}
+
+h6,
+h2 {
+    font-family: ;
 }
 
 img {
@@ -31,6 +43,39 @@ img {
     background-color: white;  
 }
 
-body {
+h2 {
+    color: white;
+}
+
+.About-Me {
+    display: inline;
+    text-align:center;
+    color: black;  
     
 }
+
+.My-work {
+    text-align: center;
+}
+
+.Contact-info {
+    text-align: center;
+    
+}
+
+/* change to flex boxes to control how they look on the screen */
+
+/* can add border color border:black */
+
+/* font-weight: makes things bolder. Use for email and phone? */
+
+/* Add @media screen -- so that you can control how the webpages look at different screens */
+
+/* display:flex turns element into flexbox
+flex-wrap forces elements to the next line if they don't fit
+justify-content defines how to distribute empty space between child elements 
+02 - 05 for more media query/flex content*/
+
+/* button:hover the cursor is positioned over the element
+button:active the user actively clicks on element
+button:focus element is in focus either by tapping or clicking on it */
