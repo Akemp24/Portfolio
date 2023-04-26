@@ -8,7 +8,7 @@ CSS and all the things it can do (mainly flex properties). This was also the fir
 
 ## Usage
 
-To see the website use the following link:
+To see the website use the following link: https://akemp24.github.io/Portfolio/
 
 Right click on the website and go to the inspect button so that you can see the code available.
 
